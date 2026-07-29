@@ -12,8 +12,14 @@ public class OlaMundo {
         System.out.println("Entre com o seu sexo");
         char sexo =sc.next().charAt(0);
 
-        if(sexo.equals("m")){
-     
+        if(sexo == 'm' && idade >= 18){
+            System.out.println("Precisa apresentar o comprovante");
+
+        } else if(sexo == 'f'){
+            System.out.println("Precisa apresentar o comprovante");
+
+        } else {
+            System.out.println("Não precisa apresentar o comprovante");
         }
 
 

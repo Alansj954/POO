@@ -7,7 +7,8 @@
 
 ## Aulas
 
-- [Aula sobre Git e Markdown](2026-07-22-aula/test.txt)
+- [Aula sobre Git e Markdown](2026-07-22/test.txt)
+- [Aula sobre revisão de Java](2026-07-28/OlaMundo.java)
 
 ## Laboratorios
 
