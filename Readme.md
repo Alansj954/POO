@@ -10,6 +10,7 @@
 - [Aula sobre Git e Markdown](2026-07-22/test.txt)
 - [Aula sobre revisão de Java](2026-07-28/OlaMundo.java)
 - [Aula sobre revisão de Java](2026-07-29/exercicioJava.java)
+- [Aula de Java Matrizes](2026-08-04)
 
 ## Laboratorios
 
