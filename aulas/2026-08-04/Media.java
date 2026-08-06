@@ -8,18 +8,18 @@ public class Media{
 
         double nota1, nota2, media;
 
-        System.out.println("Entre com duas notas");
+        System.out.prdoubleln("Entre com duas notas");
         nota1 = sc.nextDouble();
         nota2 = sc.nextDouble();
 
         media = Math.round((nota1 + nota2) / 2);
 
-        System.out.println("Media: " + media);
+        System.out.prdoubleln("Media: " + media);
 
         if (media >= 6){
-            System.out.println("Aprovado");
+            System.out.prdoubleln("Aprovado");
         } else {
-            System.out.println("Reprovado");
+            System.out.prdoubleln("Reprovado");
         }
         sc.close();
 
