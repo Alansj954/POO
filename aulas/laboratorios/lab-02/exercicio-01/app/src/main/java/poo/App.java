@@ -11,7 +11,7 @@ public class App {
         Scanner sc = new Scanner(System.in);
 
         int dia;
-        String mes, estacao;
+        String mes;
 
         System.out.println("Entre com um número inteiro entre 1 e 31 representando o dia do mês: ");
         dia = sc.nextInt();
@@ -19,14 +19,28 @@ public class App {
         System.out.println("Entre com o nome do mês: ");
         mes = sc.next();
 
-             estacao = switch (mes) {
-                case "dezembro", "janeiro", "fevereiro", "março" -> "Verão";
-                case "setembro", "outubro", "novembro", "dezembro" -> "Primavera";
-                case "junho", "julho", "agosto", "setembro" -> "Inverno";
-                case "março","abriu","maio","junho" -> "Outono";
-                default -> "";
-            };
+        String estacao = switch (mes) {
+            case "dezembro", "janeiro", "fevereiro", "março" -> "Verão";
+            case "abriu", "maio", "junho" -> "Outono";
+            case "julho", "agosto", "setembro" -> "Inverno";
+            case "outubro", "novembro" -> "Primavera";
+            default -> "Mês inválido";
+        };
 
+        // .equalsIgnoreCase() serve para não diferenciar letras maiusculas e minusculas
+
+        if(estacao.equals("Verão") && dia >= 20 && mes.equals("março")){
+            estacao = "Outono";
+        } else if(estacao.equals("Outono") && dia >= 21 && mes.equals("junho")){
+            estacao = "Inverno";
+        } else if(estacao.equals("Inverno") && dia >= 22 && mes.equals("setembro")){
+            estacao = "Primavera";
+        } else if(estacao.equals("Primavera") && dia >= 21 && mes.equals("dezembro")){
+            estacao = "Verão";
+        }
+
+        System.out.println("Estação: " + estacao);
+        sc.close();
     }
 }
 
