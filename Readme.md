@@ -13,4 +13,13 @@
 - [Aula de Java Matrizes](aulas/2026-08-04/)
 
 ## Laboratorios
+- lab-01 
+
+    Criação do diretorio POO
+
+- lab-02
+
+    [exercicio 01](laboratorios/2026-08-11/lab-02/exercicio-01/app/src/main/java/poo/App.java) 
+
+    [exercicio 02](laboratorios/2026-08-11/lab-02/exercicio-02/app/src/main/java/poo/App.java) 
 
