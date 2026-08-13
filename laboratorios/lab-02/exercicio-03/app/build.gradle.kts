@@ -32,9 +32,13 @@ java {
     }
 }
 
+tasks.run.configure{
+    standardInput=System.`in`
+}
+
 application {
     // Define the main class for the application.
-    mainClass = "ads.poo.App"
+    mainClass = "poo.App"
 }
 
 tasks.named<Test>("test") {
