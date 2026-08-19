@@ -10,8 +10,8 @@ public class App {
 
         Carro fusca = new Carro();
 
-        fusca.acelerar(90);
-        fusca.acelerar(20);
+        fusca.acelerar(70);
+        fusca.acelerar(40);
 
 
         IO.println(fusca.obterVelocidadeAtual());
