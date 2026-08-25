@@ -11,6 +11,10 @@
 - [Aula sobre revisão de Java](aulas/2026-07-28/OlaMundo.java)
 - [Aula sobre revisão de Java](aulas/2026-07-29/exercicioJava.java)
 - [Aula de Java Matrizes](aulas/2026-08-04/)
+- [Aula sobre Classes, Objetos, Atributos e Metodos](aulas/2026-08-18/)
+- [Aula de exercícios de Orientação a Objetos](aulas/2026-08-19/)
+
+
 
 ## Laboratorios
 - lab-01 
