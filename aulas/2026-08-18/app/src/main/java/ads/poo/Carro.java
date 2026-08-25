@@ -6,10 +6,11 @@ public class Carro {
 
     //metodos
     public void acelerar(int incremento){
-        if(velocidadeAtual + incremento <= 100){
-            velocidadeAtual += incremento;
+
+        if(velocidadeAtual <= 100 ){
+        velocidadeAtual += incremento;
         
-        } else{
+        } else {
             velocidadeAtual = 100;
         }
     }
