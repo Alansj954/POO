@@ -2,8 +2,8 @@ package Baralho;
 
 public class Carta {
 
-    private Naipe naipe;
-    private Valor valor;
+    protected Naipe naipe;
+    protected Valor valor;
 
 
     public Carta(Naipe naipe, Valor valor){
@@ -18,7 +18,7 @@ public class Carta {
 
     @Override
     public String toString() {
-        return this.valor.simbolo + this.naipe.inicial + ".png";
+        return valor + "" + naipe;
     }
 
 
